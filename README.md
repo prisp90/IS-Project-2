@@ -22,7 +22,7 @@
 
 
 ## ETL Process
-Extract:
+**Extract**
 
 File 1.
 - Title: 'population_growth_rate'
@@ -49,7 +49,8 @@ File 3.
 - Columns that we used: 'Country' as country name, 'Happiness Score' as happiness score
 
 
-Transform:
+**Transform**
+
 File 1.
 - Title: 'population_growth_rate'
 - Copy three columns 'name_long', 'POP_GROWTH_RT', 'YEAR' to the new data frame
@@ -78,7 +79,8 @@ File 3.
 - Round up the data in columns 'happiness_score', 'GDP per capita' and 'PGR' to 2 decimal places.
 - Merge three data frame into the new data frame 'GDP_happiness_population_df'
 
-Load:
+**Load**
+
 - Move the data in the data frame 'GDP_happiness_population_df' to PostgreSQL Database 'countries_db'
 - Table name is 'countries' including the columns 'country', 'happiness_score', 'GDP_per_capita', 'PGR'
 - The reason the topic was chosen: To figure out the relevance between Happiness Score and GDP per capita, between Happiness Score and Population Growth Rate, between GDP per capita and Population Growth Rate.
