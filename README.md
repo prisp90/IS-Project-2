@@ -88,8 +88,8 @@ File 3.
 
 
 ## Findings
-- Correlation between Happiness Score and PGR is 0.0. There are no relevance between both factors.
+- Correlation between Happiness Score and Population Growth Rate is 0.0. There are no relevance between both factors.
 - Correlation between Happiness Score and GDP per capita is 0.72. There are meaningful relevance between both factors.
-- Correlation between Happiness Score and PGR is 0.14. There are lack of relevance between both factors.
+- Correlation between Happiness Score and Population Growth Rate is 0.14. There are lack of relevance between both factors.
 
 - Only the relevance between Happiness Score and GDP per capita are valid.
