@@ -48,8 +48,7 @@ File 3.
 - Columns: 'Country', 'Region', 'Happiness Rank', 'Happiness Score', 'Standard Error', 'Economy (GDP per Capita)', 'Family', 'Health (Life Expectancy)', 'Freedom', 'Trust (Government Corruption)', 'Generosity', 'Dystopia Residual'
 - Columns that we used: 'Country' as country name, 'Happiness Score' as happiness score
 
-
-**Transform**
+### Transform
 
 File 1.
 - Title: 'population_growth_rate'
@@ -79,7 +78,7 @@ File 3.
 - Round up the data in columns 'happiness_score', 'GDP per capita' and 'PGR' to 2 decimal places.
 - Merge three data frame into the new data frame 'GDP_happiness_population_df'
 
-**Load**
+### Load
 
 - Move the data in the data frame 'GDP_happiness_population_df' to PostgreSQL Database 'countries_db'
 - Table name is 'countries' including the columns 'country', 'happiness_score', 'GDP_per_capita', 'PGR'
@@ -89,8 +88,6 @@ File 3.
 
 ## Findings
 - Correlation between Happiness Score and Population Growth Rate is 0.0. There are no relevance between both factors.
-
-
 - Correlation between Happiness Score and GDP per capita is 0.72. There are meaningful relevance between both factors.
 - Correlation between Happiness Score and Population Growth Rate is 0.14. There are lack of relevance between both factors.
 
