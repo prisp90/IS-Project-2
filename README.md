@@ -22,7 +22,7 @@
 
 
 ## ETL Process
-**Extract**
+### Extract
 
 File 1.
 - Title: 'population_growth_rate'
